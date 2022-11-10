@@ -1,6 +1,6 @@
 {
 	"name": "AnupBot",
-	"version": "11.9.7",
+	"version": "1.0.1",
 	"description": "A simple Facebook Messenger Bot made by Anup Kumar.",
 	"main": "anup.js",
 	"scripts": {
