@@ -2,7 +2,7 @@
 	"name": "AnupBot",
 	"version": "11.9.7",
 	"description": "A simple Facebook Messenger Bot made by Anup Kumar.",
-	"main": "mirai.js",
+	"main": "anup.js",
 	"scripts": {
 		"start": "node index",
 		"login": "node login",
