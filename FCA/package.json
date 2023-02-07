@@ -2,7 +2,7 @@
 {
   "name": "fca-huykaiser-remake",
   "version": "10.0.1",
-  "description": "Facebook Chat Api By HuyKaiser",
+  "description": "Facebook Chat Api By Anup Kumar",
   "scripts": {
     "test": "mocha",
     "lint": "eslint **.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/huykaiserUwU/fca-huykaiser.git"
+    "url": "git://github.com/Anupx0/Anupbot/FCA.git"
   },
   "keywords": [
     "fca-huykaiser-remake , fca huykaiser , fca kaiser , huykaiser , fca bot , fca"
   ],
   "bugs": {
-    "url": "https://github.com/huykaiserUwU/fca-huykaiser"
+    "url": "https://github.com/Anupx0/Anupbot/FCA"
   },
-  "author": "Nguyen Van Huy X HuyKaiser",
+  "author": "Anup Kumar",
   "license": "MIT",
   "dependencies": {
     "aes-js": "latest",
@@ -69,6 +69,6 @@
       ]
     }
   },
-  "homepage": "https://github.com/Anupx0/Anupbot/#readme",
+  "homepage": "https://github.com/Anupx0/Anupbot/FCA#readme",
   "main": "index.js"
 }
