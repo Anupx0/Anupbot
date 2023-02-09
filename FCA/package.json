@@ -1,62 +1,35 @@
 {
-  "name": "fca-aliya",
-  "version": "20.0.21",
-  "description": "Facebook Chat Api Made by Anup Kumar",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "lint": "./node_modules/.bin/eslint **.js",
-    "prettier": "prettier utils.js src/* --write"
-  },
-  "author": "Anup Kumar, Aliya Khan",
-  "license": "MIT",
+  "author": "Anup Kumar",
   "bugs": {
     "url": "https://github.com/Anupx0/Anupbot/tree/main/FCA/issues"
   },
-  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/FCA#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Anupx0/Anupbot/tree/main/FCA"
-  },
   "dependencies": {
-    "aes-js": "latest",
-    "assert": "latest",
-    "bluebird": "latest",
-    "chalk": "4.1.2",
-    "cheerio": "latest",
-    "crypto": "latest",
-    "crypto-js": "latest",
-    "express": "latest",
-    "got": "^11.8.3",
-    "https-proxy-agent": "latest",
-    "is-hexcolor": "^1.0.0",
-    "jsdom": "^20.0.3",
-    "lodash": "",
-    "mqtt": "latest",
-    "npmlog": "latest",
-    "os": "latest",
-    "path": "latest",
-    "pretty-ms": "7.0.1",
-    "readline": "latest",
-    "request": "latest",
-    "synthetic-horizon-database": "latest",
-    "totp-generator": "latest",
-    "uuid-apikey": "latest",
-    "websocket-stream": "latest",
-    "file-url": "^3.0.0",
-    "tough-cookie": "^4.1.2"
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.88.2",
+    "websocket-stream": "^5.5.0"
+  },
+  "deprecated": false,
+  "description": "A Facebook chat API by Anup Kumar",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "mocha": "^7.0.1",
+    "prettier": "^1.11.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
   "engines": {
-    "node": ">=14.x <16.x"
-  },
-  "devDependencies": {
-    "eslint": "latest",
-    "mocha": "latest",
-    "prettier": "latest"
+    "node": ">=10.x"
   },
   "eslintConfig": {
     "env": {
       "es6": true,
+      "es2017": true,
       "node": true
     },
     "extends": "eslint:recommended",
@@ -75,15 +48,36 @@
       "no-unused-vars": [
         1,
         {
-          "argsIgnorePattern": "^_"
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+      ],
+      "no-empty": [
+        "error",
+        {
+          "allowEmptyCatch": true
         }
       ]
     }
   },
+  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/FCA#readme",
   "keywords": [
-    "Fca aliya",
-    "fca-aliya",
-    "aliya fca",
-    "aliya"
-  ]
+    "facebook",
+    "chat",
+    "api",
+    "fca"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fca-aliya",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anupx0/Anupbot/tree/main/FCA"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "30.0.10"
 }
