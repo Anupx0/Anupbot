@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Anupx0/Anupbot/FCA.git"
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/FCA.git"
   },
   "keywords": [
     "fca-aliya , fca aliya , fca"
   ],
   "bugs": {
-    "url": "https://github.com/Anupx0/Anupbot/FCA"
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/FCA"
   },
   "author": "Anup Kumar",
   "license": "MIT",
@@ -69,6 +69,6 @@
       ]
     }
   },
-  "homepage": "https://github.com/Anupx0/Anupbot/FCA#readme",
+  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/FCA#readme",
   "main": "index.js"
 }
