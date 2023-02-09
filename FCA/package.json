@@ -1,6 +1,6 @@
 {
   "name": "fca-aliya",
-  "version": "20.0.20",
+  "version": "20.0.21",
   "description": "Facebook Chat Api Made by Anup Kumar",
   "main": "index.js",
   "scripts": {
