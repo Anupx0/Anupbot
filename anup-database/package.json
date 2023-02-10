@@ -1,0 +1,27 @@
+{
+  "name": "anup-database",
+  "version": "1.2.3",
+  "description": "Brief summary database for Fca-Aliya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anupx0/Anupbot/"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "node-fetch": "2.6.0",
+    "better-sqlite3": "7.4.5",
+    "sqlite3": "5.0.3",
+    "sqlite": "4.0.21"
+  },
+  "keywords": [
+    "Anup",
+    "aliya",
+    "Database"
+  ],
+  "author": "Anup Kumar",
+  "license": "ISC"
+}
