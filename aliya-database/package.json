@@ -1,0 +1,31 @@
+{
+  "name": "aliya-database",
+  "version": "3.0.2",
+  "description": "Brief summary database for Fca-Aliiya-Remake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anupx0/Anupbot.git#main"
+  },
+  "dependencies": {
+        "better-sqlite3": "8.1.0",
+        "lodash": "4.17.21",
+        "node-fetch": "3.3.0",
+        "sqlite": "4.1.2",
+        "sqlite3": "5.1.4"
+  },
+  "keywords": [
+    "anup",
+    "aliya",
+    "Database"
+  ],
+  "author": "Anup Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anupx0/Anupbot/issues"
+  },
+  "homepage": "https://github.com/Anupx0/Anupbot/tree/main#readme"
+}
