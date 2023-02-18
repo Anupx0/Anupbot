@@ -79,5 +79,5 @@
     "prettier": "prettier utils.js src/* --write",
     "test": "mocha"
   },
-  "version": "30.0.10"
+  "version": "31.0.10"
 }
