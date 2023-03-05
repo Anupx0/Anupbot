@@ -1,0 +1,74 @@
+{
+  "name": "anup-yogesh",
+  "version": "12.3.0",
+  "description": "Fb-Chat Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Anup Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anupx0/fb-anya/issues"
+  },
+  "homepage": "https://github.com/ChoruTiktokers182/fb-anya#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChoruTiktokers182/fca-anjelo.git"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "axios": "^1.2.1",
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "semver": "",
+    "websocket-stream": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "fca anup",
+    "fca yogesh",
+    "anup yogesh"
+  ]
+}
