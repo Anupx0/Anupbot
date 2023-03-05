@@ -1,6 +1,6 @@
 {
   "name": "anup-yogesh",
-  "version": "12.3.0",
+  "version": "1.0.1",
   "description": "Fb-Chat Api",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "author": "Anup Kumar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Anupx0/fb-anya/issues"
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh/issues"
   },
-  "homepage": "https://github.com/ChoruTiktokers182/fb-anya#readme",
+  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChoruTiktokers182/fca-anjelo.git"
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh.git"
   },
   "dependencies": {
     "aes-js": "^3.1.2",
